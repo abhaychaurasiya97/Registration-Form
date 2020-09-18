@@ -34,12 +34,12 @@ Mobile No <input type="number" maxlength="10" size="10"/>
 </fieldset>
 <fieldset>
 <legend><h3>Upload Document</h3></legend>
-High School Certificate<br><input type="file" name="High_School_Marksheet" /></br><br>
+High School Certificate<br><input type="file" name="High_School_Marksheet" /><br/>
 <input type="submit" value="upload"/>
 <hr>
-Intermediate Certificate<br><input type="file" name="Intermediate_Marksheet" /></br>
-<br><input type="submit" value="upload"/>
-Other Certificate<br> <input type="file" name="Other_certificate" /></br>
+Intermediate Certificate<br><input type="file" name="Intermediate_Marksheet" /><br/>
+<br/><input type="submit" value="upload"/>
+Other Certificate<br> <input type="file" name="Other_certificate" /><br/>
 <input type="submit" value="upload"/>
 
 </fieldset>
@@ -50,11 +50,6 @@ Other Certificate<br> <input type="file" name="Other_certificate" /></br>
 <option value="MBA">MBA</option>
 <option value="B.Tech">BTech</option>
 <option value ="BE" >BE</option></td></label>
-<td></td><td></td><td><label>Semester<input type="number" maxlength="1" size="5" placeholder="ssem"></label></td><td><label>0<input type="range">100</label></td>
-
-</form>
-</body></html>
-<input type="range">100</label></td>
-
+<td></td><td></td><td><label>Semester<input type="number" maxlength="1" size="5" placeholder="sem"></label></td>
 </form>
 </body></html>
