@@ -29,27 +29,28 @@ Address
 <input type="textarea"  name="address"  size="50"/>
 <br/>
 Pin Code <input type="number" maxlength="6" size="10"/>
-<p></p>
+<br/>
 Mobile No <input type="number" maxlength="10" size="10"/>
-<fieldset>
+</fieldset>
 <fieldset>
 <legend><h3>Upload Document</h3></legend>
 High School Certificate<br><input type="file" name="High_School_Marksheet" /><br/>
 <input type="submit" value="upload"/>
 
-Intermediate Certificate<br><input type="file" name="Intermediate_Marksheet" /><br/>
+Intermediate Certificate<br/><input type="file" name="Intermediate_Marksheet" />
 <br/><input type="submit" value="upload"/><br/>
-Other Certificate<br/> <input type="file" name="Other_certificate" /><br/>
+Other Certificate<br/> 
+<input type="file" name="Other_certificate" /><br/>
 <input type="submit" value="upload"/>
 
 </fieldset>
-<fieldset><legend>Academic Details</legend> <table><tr> <td> <label> Course<select value="Course" >
+<fieldset><legend>Academic Details</legend> <label> Course<select value="Course" >
 <option> Select</option>
 <option value="BBA">BBA</option>
 <option value="BCA" >BCA</option>
 <option value="MBA">MBA</option>
 <option value="B.Tech">BTech</option>
-<option value ="BE" >BE</option></td></label>
+<option value ="BE" >BE</option></label>
 </fieldset>
 
 
