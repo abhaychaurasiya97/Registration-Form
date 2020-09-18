@@ -31,7 +31,7 @@ Address
 Pin Code <input type="number" maxlength="6" size="10"/>
 <p></p>
 Mobile No <input type="number" maxlength="10" size="10"/>
-</fieldset>
+<fieldset>
 <fieldset>
 <legend><h3>Upload Document</h3></legend>
 High School Certificate<br><input type="file" name="High_School_Marksheet" /><br/>
