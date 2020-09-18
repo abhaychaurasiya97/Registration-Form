@@ -7,8 +7,8 @@
 </style>
 <body>
 <form><fieldset><legend><h3>Basic Detail</h3></legend><table><tr><td><div><label>
-Name       <input type="text" placeholder="Name" name="name" /></label></div></tf><th>      </th>
-<div><td><label margin ="left">Father's Name   </td><td><input type="text" name="father's name" /></label></div></td><tr></table>
+Name       <input type="text" placeholder="Name" name="name" /></label></div></tf><th>      <th/>
+<div><td><label margin ="left">Father's Name   </td><td><input type="text" name="father's name" /></label></div></td><tr/></table>
 <br/><label>DOB <input  type="date"  placeholder="DOB"/></label><br/>
 <label>Mother's Name  <input type="text" name="mother's name" /></label>
 <br/><label>Roll Number <input type="number" maxlength="6" name="roll_number" /></label>
@@ -36,9 +36,9 @@ Mobile No <input type="number" maxlength="10" size="10"/>
 <legend><h3>Upload Document</h3></legend>
 High School Certificate<br><input type="file" name="High_School_Marksheet" /><br/>
 <input type="submit" value="upload"/>
-<hr>
+<hr/>
 Intermediate Certificate<br><input type="file" name="Intermediate_Marksheet" /><br/>
-<br><input type="submit" value="upload"/>
+<br/><input type="submit" value="upload"/>
 Other Certificate<br> <input type="file" name="Other_certificate" /><br/>
 <input type="submit" value="upload"/>
 
@@ -50,7 +50,8 @@ Other Certificate<br> <input type="file" name="Other_certificate" /><br/>
 <option value="MBA">MBA</option>
 <option value="B.Tech">BTech</option>
 <option value ="BE" >BE</option></td></label>
-<td></td><td></td><td><label>Semester<input type="number" maxlength="1" size="5" placeholder="ssem"></label></td><td><label>0<input type="range">100</label></td>
+<label>Semester
+  <input type="number" maxlength="1" size="5" placeholder="sem"></label></td>
 
 
 
