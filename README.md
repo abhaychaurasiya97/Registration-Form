@@ -1,5 +1,5 @@
 # Registration-Form
-<!doctype html>
+
 <html>
 <head> 
 <title> Admission Form</title>
