@@ -38,7 +38,7 @@ High School Certificate<br><input type="file" name="High_School_Marksheet" /><br
 <input type="submit" value="upload"/>
 
 Intermediate Certificate<br><input type="file" name="Intermediate_Marksheet" /><br/>
-<br/><input type="submit" value="upload"/>
+<br/><input type="submit" value="upload"/><br/>
 Other Certificate<br/> <input type="file" name="Other_certificate" /><br/>
 <input type="submit" value="upload"/>
 
